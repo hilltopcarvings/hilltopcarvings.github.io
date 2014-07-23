@@ -3,3 +3,7 @@
 html, body {
  background-color: none;
 }
+
+html, body {
+ background-color: rgba(0,0,0,0.4);
+}
