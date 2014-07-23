@@ -6,4 +6,9 @@ html, body {
 
 html, body {
  background-color: rgba(0,0,0,0.5);
+ overflow: hidden;
+}
+
+img.fullscreen {
+ min-height: 100%;
 }
