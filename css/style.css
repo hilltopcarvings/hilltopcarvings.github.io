@@ -11,4 +11,6 @@ html, body {
 
 img.fullscreen {
  min-height: 100%;
+ position: absolute;
+ z-index:-1;
 }
