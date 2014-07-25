@@ -17,3 +17,14 @@ img.fullscreen {
  z-index:-1;
  left: 0;
 }
+
+@media (max-width: 1000px) {
+img.fullscreen {
+ min-height: 100%;
+ min-width: 100%;
+ max-width: 200%;
+ position: absolute;
+ z-index:-1;
+ left: 0;
+}
+}
