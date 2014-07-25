@@ -1,0 +1,30 @@
+/* Custom CSS overrides */
+
+html, body {
+ background-color: none;
+}
+
+html, body {
+ background-color: rgba(0,0,0,0.5);
+ overflow: hidden;
+}
+
+img.fullscreen {
+ min-height: 100%;
+ min-width: 100%;
+ max-width: 150%;
+ position: absolute;
+ z-index:-1;
+ left: 0;
+}
+
+@media (max-width: 1000px) {
+img.fullscreen {
+ min-height: 100%;
+ min-width: 100%;
+ max-width: 250%;
+ position: absolute;
+ z-index:-1;
+ left: 0;
+}
+}
