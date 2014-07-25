@@ -66,23 +66,13 @@
     <script src="../../assets/js/docs.min.js"></script>
     
 <script>
-      $(function () {
-      setNavigation();
-  });
-  
-  function setNavigation() {
-      var path = window.location.pathname;
-      path = path.replace(/\/$/, "");
-      path = decodeURIComponent(path);
-  
-      $(".nav a").each(function () {
-          var href = $(this).attr('href');
-          if (path.substring(0, href.length) === href) {
-              $(this).closest('li').addClass('active');
-          }
-      });
+$('.nav li a').click(function(e) {
+  var $this = $(this);
+  if (!$this.hasClass('active')) {
+    $this.addClass('active');
   }
-    
+  e.preventDefault();
+});
 </script>
 
   </body>
