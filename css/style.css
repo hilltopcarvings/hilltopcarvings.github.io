@@ -36,5 +36,6 @@ img.fullscreen {
 }
 
 .site-wrapper-inner{
+ position:relative;
  overflow:auto;
 }
