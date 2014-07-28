@@ -34,3 +34,7 @@ img.fullscreen {
 .site-wrapper{
  overflow:scroll;
 }
+
+.site-wrapper-inner{
+ overflow:scroll;
+}
