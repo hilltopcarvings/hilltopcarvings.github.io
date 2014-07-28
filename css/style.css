@@ -5,7 +5,7 @@ html, body {
 }
 
 html, body {
- background-color: rgba(248,250,255,0.8);
+ background-color: rgba(248,250,255,0.5);
  overflow: hidden;
 }
 
@@ -29,10 +29,3 @@ img.fullscreen {
 }
 }
 
-.masthead-nav ul li a{
- color: black;
-}
-
-.nav ul li a{
- color: black;
-}
