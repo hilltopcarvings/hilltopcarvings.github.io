@@ -6,7 +6,7 @@ html, body {
 
 html, body {
  background-color: rgba(0,0,0,0.5);
- overflow: scroll;
+ overflow: auto;
 }
 
 img.fullscreen {
