@@ -32,9 +32,9 @@ img.fullscreen {
 }
 
 .site-wrapper{
- overflow:scroll;
+ overflow:auto;
 }
 
 .site-wrapper-inner{
- overflow:scroll;
+ overflow:auto;
 }
