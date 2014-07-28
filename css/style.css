@@ -29,10 +29,10 @@ img.fullscreen {
 }
 }
 
-.masthead-nav {
+.masthead-nav a{
  color: black;
 }
 
-.nav {
+.nav a{
  color: black;
 }
