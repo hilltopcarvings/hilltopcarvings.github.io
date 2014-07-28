@@ -41,6 +41,7 @@ img.fullscreen {
  position:relative;
  overflow-x:auto;
  overflow-y:auto;
+ vertical-align:none;
 }
 
 .inner-cover{
