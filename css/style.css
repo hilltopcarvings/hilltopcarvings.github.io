@@ -33,15 +33,18 @@ img.fullscreen {
 
 .site-wrapper{
  position:relative;
- overflow:auto;
+ overflow-x:auto;
+ overflow-y:auto;
 }
 
 .site-wrapper-inner{
  position:relative;
- overflow:auto;
+ overflow-x:auto;
+ overflow-y:auto;
 }
 
 .inner-cover{
  position:relative;
- overflow:auto;
+ overflow-x:auto;
+ overflow-y:auto;
 }
