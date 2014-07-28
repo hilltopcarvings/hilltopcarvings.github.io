@@ -31,21 +31,6 @@ img.fullscreen {
 }
 }
 
-.site-wrapper{
- position:relative;
- overflow-x:auto;
- overflow-y:auto;
-}
-
-.site-wrapper-inner{
- position:relative;
- overflow-x:auto;
- overflow-y:auto;
- vertical-align:none;
-}
-
-.inner-cover{
- position:relative;
- overflow-x:auto;
- overflow-y:auto;
+.scroll {
+ overflow: scroll;
 }
