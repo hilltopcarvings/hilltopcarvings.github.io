@@ -9,10 +9,6 @@ html, body {
  overflow: hidden;
 }
 
-li {
- color: black;
-}
-
 img.fullscreen {
  min-height: 100%;
  min-width: 100%;
@@ -31,4 +27,8 @@ img.fullscreen {
  z-index:-1;
  left: 0;
 }
+}
+
+.masthead-nav {
+ color: black;
 }
