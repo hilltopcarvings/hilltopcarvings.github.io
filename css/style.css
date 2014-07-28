@@ -9,6 +9,10 @@ html, body {
  overflow: hidden;
 }
 
+li {
+ color: black;
+}
+
 img.fullscreen {
  min-height: 100%;
  min-width: 100%;
