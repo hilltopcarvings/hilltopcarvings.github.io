@@ -31,3 +31,6 @@ img.fullscreen {
 }
 }
 
+.cover-container{
+ overflow:scroll;
+}
